@@ -1,0 +1,38 @@
+#divcontent{
+	margin-top: 11%;
+}
+#page{
+	float:right;
+}
+#resultMessage{
+	display: none;
+}
+#div_show_image{
+	margin-top: 200px;
+}
+#div_show_post_new{
+	margin-top: 5%;
+    width: 100%;
+}
+.btn_action{
+	margin: 50px auto;
+}
+#title{
+	box-shadow: 5px 5px 40px black;
+}
+p{
+	min-height: 80px;
+}
+
+@media ( max-width :768px) {
+	#div_show_image{
+		display: none;
+	}
+	marquee{
+		width:0;
+	}
+	
+}
+
+
+
